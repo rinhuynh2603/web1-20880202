@@ -377,7 +377,7 @@
 		<script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
 		<script src="js/map.js"></script>
 
-		<!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf-B-QlAAAAAHUDsptQiWNxLJVfUYjZj17G7bz3"></script> -->
+	
 
 		<script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf1h-MoAAAAADDW3IBsqP3Zw67_p31YZoO3iSay"></script>
 		
@@ -391,12 +391,10 @@
 				//responseMessage.className = "text-success";
 				responseMessage.innerHTML = "";
 				const CAPTCHA_PROJECT_ID = "web1-20880202-1698748762715";
-				// const CAPTCHA_PROJECT_ID = "web1-20880202-1683287807519";
+	
 				const CAPTCHA_SITE_KEY =
 				"6Lf1h-MoAAAAADDW3IBsqP3Zw67_p31YZoO3iSay";
-					// "6Lf-B-QlAAAAAHUDsptQiWNxLJVfUYjZj17G7bz3";
-				// const CAPTCHA_API_KEY =
-				// 	"6Lf-B-QlAAAAAHzDjCt0aBBSv6RO6sygFS27M-bn";
+
 
 				grecaptcha.enterprise.ready(async function () {
 					let token = await grecaptcha.enterprise.execute(
